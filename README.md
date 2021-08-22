@@ -123,7 +123,7 @@ INSERT INTO Products (Code, Name, Price, Manufacturer) VALUES (10, 'DVD burner',
 
 7. SELECT avg(Price) FROM Products2 WHERE Manufacturer = 2;
 
-8.SELECT count(*) FROM Products2 WHERE Price >= 180;
+8. SELECT count(*) FROM Products2 WHERE Price >= 180;
 
 9. SELECT Name, Price FROM Products2 WHERE Price >= 180 ORDER BY Price DESC, Name;
 
